@@ -1,5 +1,5 @@
-test = fread('https://s3.amazonaws.com/hackerday.datascience/109/test.tsv')
-train = fread('https://s3.amazonaws.com/hackerday.datascience/109/train.tsv')
+test = fread('/test.tsv')
+train = fread('/train.tsv')
 
 
 import gc
